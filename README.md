@@ -6,20 +6,15 @@ The repository is organized by topic, allowing a structured progression through 
 ## 📂 Repository Structure
 ```text
 📂 python-learning-lab/
-├── 📂 01_variables/
-├── 📂 02_conditionals/
-├── 📂 03_loops/
-├── 📂 04_functions/
-├── 📂 05_lists/
-├── 📂 06_tuples/
-├── 📂 07_dictionaries/
-├── 📂 08_sets/
-├── 📂 09_recursion/
-├── 📂 10_data_structures/
-├── 📂 11_algorithms/
-├── 📂 12_oop/
-├── 📂 13_file_handling/
-├── 📂 14_exceptions/
+├── 📂 01_variables_and_data_types/
+├── 📂 02_conditionals_and_loops/
+├── 📂 03_functions/
+├── 📂 04_data_structures/
+├── 📂 05_recursion/
+├── 📂 06_algorithms/
+├── 📂 07_oop/
+├── 📂 08_file_handling/
+├── 📂 09_exceptions/
 └── 📄 README.md
 ```
 
