@@ -1,4 +1,4 @@
-# Python Learning Lab 🐍
+# 🐍 Python Learning Lab
 
 A collection of Python exercises, algorithms, and data structure implementations created to practice and strengthen core programming concepts.
 The repository is organized by topic, allowing a structured progression through Python fundamentals and intermediate concepts.
