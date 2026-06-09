@@ -1,6 +1,3 @@
-#Adicione uma nova informação: a categoria do produto
-#Imprima o dicionário atualizado
-
 product_store = {
     "name" : "Carrot cake",
     "price": 12.99,
