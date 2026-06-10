@@ -5,7 +5,6 @@ dataset = [("Alice", 22, 8.5), ("Bruno", 19, 7.0), ("Carla",
 #nomes com nota acima da média geral
 
 soma_notas = 0
-#estudante_acima_media = students[0]
 
 print("\n====== LISTA DE ALUNOS ======\n")
 
@@ -25,12 +24,24 @@ for nome, idade, nota in dataset:
 #duplicadas (dica: você pode usar “in” no set para verificar se um 
 #dado já está nele ou não)
 
-idades_duplicadas = set()
 idades_visitadas = set()
+idades_duplicadas = set()
+nomes_por_idade = {}
 
-for nome,idade,nota in dataset:
+for nome, idade, nota in dataset:
+
     if idade in idades_visitadas:
         idades_duplicadas.add(idade)
     else:
         idades_visitadas.add(idade)
-print(f"As idades duplicadas dos alunos são {idades_duplicadas}")
+
+    if idade not in nomes_por_idade:
+        nomes_por_idade[idade] = []
+
+    nomes_por_idade[idade].append(nome)
+
+print("\n====== IDADES DUPLICADAS ======\n")
+print("Os seguintes alunos têm idades duplicadas:")
+
+for idade in idades_duplicadas:
+    print(f"{' e '.join(nomes_por_idade[idade])} ({idade} anos)")
